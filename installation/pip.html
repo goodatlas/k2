@@ -5,7 +5,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Install using pip (k2-fsa.org) &mdash; k2 1.9 documentation</title>
+  <title>Install using pip (k2-fsa.org) &mdash; k2 1.10 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -32,7 +32,7 @@
             <a href="../index.html" class="icon icon-home"> k2
           </a>
               <div class="version">
-                1.9
+                1.10
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -124,6 +124,18 @@ pip install <span class="nv">k2</span><span class="o">==</span><span class="m">1
 
 <span class="c1"># Please always select the latest version. That is, the version</span>
 <span class="c1"># with the latest date.</span>
+</pre></div>
+</div>
+<p>To install a version for CPU only, please use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Install a CPU version compiled against PyTorch 1.8.1 on 2021.10.22</span>
+<span class="c1">#</span>
+pip install <span class="nv">k2</span><span class="o">==</span><span class="m">1</span>.9.dev20211022+cpu.torch1.8.1 -f https://k2-fsa.org/nightly/
+
+<span class="c1"># Install a CPU version compiled against PyTorch 1.9.0 on 2021.10.22</span>
+<span class="c1">#</span>
+pip install <span class="nv">k2</span><span class="o">==</span><span class="m">1</span>.9.dev20211022+cpu.torch1.9.0 -f https://k2-fsa.org/nightly/
+
+<span class="c1"># Please visit https://k2-fsa.org/nightly/ for more versions of k2</span>
 </pre></div>
 </div>
 <div class="admonition caution">
